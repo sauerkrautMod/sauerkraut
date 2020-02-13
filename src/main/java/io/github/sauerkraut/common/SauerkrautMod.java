@@ -19,5 +19,6 @@ public class SauerkrautMod {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModBlocks.BLOCKS.register(modEventBus);
+        ModBlocks.ITEMS.register(modEventBus);
     }
 }
