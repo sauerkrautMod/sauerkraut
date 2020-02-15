@@ -14,5 +14,7 @@ public final class ModBlocks {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, SauerkrautMod.MODID);
 
     public static final RegistryObject<Block> BLOCK_COPPER_ORE = BLOCKS.register("copper_ore", () -> new Block(Block.Properties.create(Material.ROCK)));
-    public static final RegistryObject<Item> ITEM_COPPER_ORE = ITEMS.register("copper_ore", BLOCK_COPPER_ORE.lazyMap(block -> new BlockItem(block, new Item.Properties())));
+
+    private static final Item.Properties DEFAULT_ITEM_PROPS = new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP);
+    public static final RegistryObject<Item> ITEM_COPPER_ORE = ITEMS.register("copper_ore", BLOCK_COPPER_ORE.lazyMap(block -> new BlockItem(block, DEFAULT_ITEM_PROPS)));
 }
