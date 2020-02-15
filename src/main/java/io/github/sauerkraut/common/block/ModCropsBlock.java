@@ -4,6 +4,6 @@ import net.minecraft.block.CropsBlock;
 
 public class ModCropsBlock extends CropsBlock {
     public ModCropsBlock(Properties builder){
-        super(builder);
+        super(builder.tickRandomly());
     }
 }

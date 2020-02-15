@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "sauerkraut:block/7_klein"
+  }
+}
