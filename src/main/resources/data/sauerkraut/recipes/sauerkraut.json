@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sauerkraut:pointy_cabbage"
+    }
+  ],
+  "result": {
+    "item": "sauerkraut:sauerkraut",
+    "count": 3
+  }
+}

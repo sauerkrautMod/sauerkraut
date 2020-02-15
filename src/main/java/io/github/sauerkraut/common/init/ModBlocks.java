@@ -19,4 +19,5 @@ public final class ModBlocks {
 
     private static final Item.Properties DEFAULT_ITEM_PROPS = new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP);
     public static final RegistryObject<Item> ITEM_COPPER_ORE = ITEMS.register("copper_ore", BLOCK_COPPER_ORE.lazyMap(block -> new BlockItem(block, DEFAULT_ITEM_PROPS)));
+    public static final RegistryObject<Item> ITEM_POINTY_CABBAGE_BLOCK = ITEMS.register("pointy_cabbage_block", BLOCK_POINTY_CABBAGE.lazyMap(block -> new BlockItem(block, DEFAULT_ITEM_PROPS)));
 }
