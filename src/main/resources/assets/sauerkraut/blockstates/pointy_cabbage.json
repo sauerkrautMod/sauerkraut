@@ -1,6 +1,6 @@
 {
   "variants": {
-    "age=0": { "model": "sauerkraut:block/helmut_kohl_1989" },
+    "age=0": { "model": "sauerkraut:block/0_klein" },
     "age=1": { "model": "sauerkraut:block/helmut_kohl_1989" },
     "age=2": { "model": "sauerkraut:block/helmut_kohl_1989" },
     "age=3": { "model": "sauerkraut:block/helmut_kohl_1989" },
