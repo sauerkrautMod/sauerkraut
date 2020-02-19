@@ -25,10 +25,10 @@ public class ModConveyorStraightBlock extends Block {
         super(properties);
         this.setDefaultState(
                 this.getDefaultState()
-                        .with(FACING, Direction.NORTH)
-                        .with(CONNECTED_RIGHT, false)
-                        .with(CONNECTED_BACK, false)
-                        .with(CONNECTED_LEFT, false)
+                        // .with(FACING, Direction.NORTH)
+                        // .with(CONNECTED_RIGHT, false)
+                        // .with(CONNECTED_BACK, false)
+                        // .with(CONNECTED_LEFT, false)
         );
     }
 
