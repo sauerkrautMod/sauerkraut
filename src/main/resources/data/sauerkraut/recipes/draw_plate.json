@@ -7,11 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:planks"
+      "tag": "minecraft:planks"
     }
   },
   "result": {
-    "item": "sauerkraut:draw_plate",
-    "count": 1
+    "item": "sauerkraut:draw_plate"
   }
 }
